@@ -9,15 +9,15 @@ let g:rio#palette.bg        = ['#0F0D0E', 236]
 let g:rio#palette.bgdark    = ['#21222C', 235]
 let g:rio#palette.bgdarker  = ['#191A21', 234]
 
-let g:rio#palette.comment   = ['#7B5EA7',  61]
-let g:rio#palette.selection = ['#F38BA3', 239]
+let g:rio#palette.comment   = ['#F38BA3',  61]
+let g:rio#palette.selection = ['#C26F82', 239]
 let g:rio#palette.subtle    = ['#ADA8A0', 238]
 
 let g:rio#palette.cyan      = ['#88DAF2', 117]
 let g:rio#palette.green     = ['#098749',  84]
 let g:rio#palette.orange    = ['#FFB86C', 215]
 let g:rio#palette.pink      = ['#12B5E5', 212]
-let g:rio#palette.purple    = ['#242805', 141]
+let g:rio#palette.purple    = ['#7B5EA7', 141]
 let g:rio#palette.red       = ['#ED203D', 203]
 let g:rio#palette.yellow    = ['#FCBA28', 228]
 
@@ -28,7 +28,7 @@ let g:rio#palette.color_0  = '#4C4345'
 let g:rio#palette.color_1  = '#ED203D'
 let g:rio#palette.color_2  = '#098749'
 let g:rio#palette.color_3  = '#FCBA28'
-let g:rio#palette.color_4  = '#7B5EA7'
+let g:rio#palette.color_4  = '#F38BA3'
 let g:rio#palette.color_5  = '#12B5E5'
 let g:rio#palette.color_6  = '#88DAF2'
 let g:rio#palette.color_7  = '#F9F4DA'
