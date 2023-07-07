@@ -1,4 +1,4 @@
-### [Rio Vim](http://www.vim.org/)
+### Vim-Rio
 
 #### Install
 
@@ -35,7 +35,7 @@ cd ~/.vim/pack/themes/opt
 3. Clone the repository using the "rio" name:
 
 ```
-git clone https://github.com/rio/vim.git rio
+git clone https://github.com/raphamorim/vim-rio.git rio
 ```
 (Or use your favorite GUI client, or download the ZIP)
 
@@ -59,14 +59,14 @@ The location of the `vimrc` varies between platforms:
 
 Navigate to your vim directory (\*nix: `~/.vim`; Windows: `$HOME\vimfiles`)
 
-    git submodule add git@github.com:rio/vim.git bundle/rio
+    git submodule add git@github.com:raphamorim/vim-rio.git bundle/rio
 
 Place `colorscheme rio` after `execute pathogen#infect()`.
 
 - If you [use vim + vundle](https://github.com/VundleVim/Vundle):
 
 ```vim
-Plugin 'rio/vim', { 'name': 'rio' }
+Plugin 'raphamorim/vim-rio', { 'name': 'rio' }
 :PluginInstall
 ```
 
@@ -76,7 +76,7 @@ Place `colorscheme rio` after `call vundle#end()`.
 the plugin in a directory called 'rio' instead of just 'vim'):
 
 ```vim
-Plug 'rio/vim', { 'as': 'rio' }
+Plug 'raphamorim/vim-rio', { 'as': 'rio' }
 :PlugInstall
 ```
 
@@ -90,7 +90,7 @@ following in `~/.SpaceVim.d/init.toml`:
   colorscheme = "rio"
   colorscheme_bg = "dark"
 [[custom_plugins]]
-  repo = "rio/vim"
+  repo = "raphamorim/vim-rio"
   name = "rio"
   merged = false
 ```
